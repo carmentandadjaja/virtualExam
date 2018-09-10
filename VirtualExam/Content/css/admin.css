@@ -1,0 +1,18 @@
+﻿.form-control:focus {
+    color: #495057;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(210, 210, 210, 0);
+}
+
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(to top, #00bcd4 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.pl-5, .px-5 {
+    padding-left: 6.5rem !important;
+}
+
+.ml-4, .mx-4 {
+    margin-left: -3.5rem !important;
+}

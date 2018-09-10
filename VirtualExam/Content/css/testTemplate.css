@@ -1,0 +1,59 @@
+﻿.container {
+    max-height: 500px;
+}
+
+.cardStyle {
+    min-height: 600px;
+}
+
+.tab-space {
+    padding: 20px 0 3px 0px;
+}
+
+.true-false {
+    position: relative;
+    display: block;
+    padding-left: 0.25rem;
+}
+
+.col-centered {
+    margin: 0 auto;
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(210, 210, 210, 0);
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: .75rem;
+    margin-left: -1.25rem;
+}
+
+textarea {
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.optionSize {
+    max-width: 600px;
+}
+
+.nav-pills.nav-pills-icons .nav-item .nav-link {
+    border-radius: 4px;
+    width: 140px;
+}
+
+.widthBtn {
+    max-width: 130px;
+    width: 130px;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #00bcd4;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #00bcd4;
+}

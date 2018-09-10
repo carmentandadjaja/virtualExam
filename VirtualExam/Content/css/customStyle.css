@@ -1,0 +1,64 @@
+﻿table {
+   border: 2px solid lightgrey;
+}
+
+table thead {
+   border: 1px solid;
+   background: #00bcd4;
+   color: white;
+}
+
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(to top, #00bcd4 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.is-focused [class*='bmd-label'] {
+    color: #00bcd4;
+}
+
+
+/* Student */ 
+.bodyContainer {
+    background-color: #eeeeee;
+    min-height: 250px;
+    max-height: 400px;
+}
+
+.questionContainer {
+    background-color: #eeeeee;
+    min-height: 350px;
+}
+
+.instructionContainer {
+    height: 500px;
+    background-color: #eeeeee;
+}
+
+/* Navbar */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+   color: #00bcd4;
+   background: white;
+}
+
+#navLogo{
+   cursor:default;
+}
+
+.logout {
+   position: absolute;
+   right: 70px;
+   top: 17px;
+}
+
+@media (max-width:991px)
+{
+   .logout {
+      position: absolute;
+      top: 240px;
+      right: 80px;
+      width: 150px;
+   }
+}
+
+
+

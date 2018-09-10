@@ -1,0 +1,10 @@
+﻿table {
+    margin: 20px;
+    border: 2px solid lightgrey;
+}
+
+    table thead {
+        border: 1px solid;
+        background: #00bcd4;
+        color: white;
+    }
